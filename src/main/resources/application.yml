@@ -2,3 +2,9 @@ server:
   port: 8088
   servlet:
     context-path: /sd
+spring:
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/haha?useSSL=false
